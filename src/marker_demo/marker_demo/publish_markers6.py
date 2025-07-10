@@ -75,7 +75,7 @@ class MarkerPublisher(Node):
             text_marker.pose.position.z = z + 1.5
             text_marker.scale.z = 0.5
             text_marker.color = ColorRGBA(r=1.0, g=1.0, b=1.0, a=1.0)
-            text_marker.text = f"{label},{x:.2f},{y:.2f}"
+            text_marker.text = f"\t{label}\n({x:.2f},{y:.2f})"
             text_marker.lifetime.sec = 0
             self.publisher_.publish(text_marker)
             time.sleep(0.05)
