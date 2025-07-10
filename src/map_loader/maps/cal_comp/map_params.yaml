@@ -1,0 +1,5 @@
+/**:
+  ros__parameters:
+    use_sim_time: false
+    # yaml_filename: "/home/cg/marker/src/nav2_bringup/maps/cal_comp/origin/cal_comp_demo.yaml"
+    yaml_filename: "/home/cg/marker/src/nav2_bringup/maps/thaishin/origin/demo.yaml"
